@@ -1,12 +1,52 @@
-# React + Vite
+# 📝 TRPG Notes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**TRPG Notes** is a free and open-source web application built to help Game Masters and players organize and run their tabletop RPG campaigns more easily.
 
-Currently, two official plugins are available:
+Designed with **clarity, speed, and simplicity** in mind, this app aims to make campaign management smoother — especially for groups that value accessibility and flexibility.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> Built with **React + Vite** and styled using **Tailwind CSS**.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Project Status
+
+🚧 **Currently in development** — still adding core features and refining the layout.  
+Expect frequent changes and a growing list of features.
+
+---
+
+## 🌟 Goals
+
+- Help players manage characters, mobs, items, and notes
+- Keep the interface intuitive and visually clean
+- Ensure everything works **100% free and in-browser**
+- Make it easier for GMs to stay organized during play
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React – `^[version here]`
+- ⚡ Vite – `^[version here]`
+- 🎨 Tailwind CSS – `^[version here]`
+- 📦 Node.js – `^[version here]` *(for local development)*
+
+> 🔧 You can find actual versions in `package.json`
+
+---
+
+## 🗂️ Project Structure
+
+```bash
+trpg-notes/
+├── public/             # Static assets
+├── src/
+│   ├── components/     # Reusable UI elements
+│   ├── pages/          # Page views (Characters, Battle, etc.)
+│   ├── assets/         # Images, icons, etc.
+│   └── App.jsx         # Main application component
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
