@@ -26,10 +26,10 @@ Expect frequent changes and a growing list of features.
 
 ## 🛠️ Tech Stack
 
-- ⚛️ React – `^[version here]`
-- ⚡ Vite – `^[version here]`
-- 🎨 Tailwind CSS – `^[version here]`
-- 📦 Node.js – `^[version here]` *(for local development)*
+- ⚛️ React – `v19.1.0`
+- ⚡ Vite – `v6.3.5`
+- 🎨 Tailwind CSS – `v4.1.8`
+- 📦 Node.js – `v22.16.0` _(for local development)_
 
 > 🔧 You can find actual versions in `package.json`
 
@@ -50,3 +50,4 @@ trpg-notes/
 ├── tailwind.config.js
 ├── vite.config.js
 └── README.md
+```
