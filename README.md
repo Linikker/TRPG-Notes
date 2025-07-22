@@ -29,7 +29,7 @@ Expect frequent changes and a growing list of features.
 - ⚛️ React – `v19.1.0`
 - ⚡ Vite – `v6.3.5`
 - 🎨 Tailwind CSS – `v4.1.8`
-- 📦 Node.js – `v22.16.0` _(for local development)_
+- 📦 Node.js – `v22.16.0`
 
 > 🔧 You can find actual versions in `package.json`
 

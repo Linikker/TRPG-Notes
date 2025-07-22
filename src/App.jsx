@@ -1,16 +1,16 @@
 import React from "react";
 import Navbar from "./components/Navigator";
-import Tittle from "./components/Tittle";
+import Tittle from "./pages/Tittle";
 import About from "./pages/About";
 
 function App() {
   return (
-    <div className="sroll-smooth h-screen w-screen snap-y snap-mandatory flex-wrap justify-items-center overflow-y-scroll px-15">
-      <div class="h-screen snap-start">
-        <Navbar />
+    <div className="h-screen w-full snap-y snap-mandatory overflow-x-hidden overflow-y-scroll scroll-smooth">
+      <div className="h-screen snap-start">
         <Tittle />
       </div>
-      <div class="h-screen snap-start">
+
+      <div className="min-h-screen snap-start">
         <About />
       </div>
     </div>
