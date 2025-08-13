@@ -1,8 +1,4 @@
-//import { useState, useEffect, useRef } from "react";
-import home from "../assets/home.jpg";
-import Navbar from "../components/Navbar";
-
-export default function Tittle() {
+export default function Characters() {
   return (
     <div className="relative min-h-screen bg-white">
       {/* Navbar */}
@@ -23,15 +19,6 @@ export default function Tittle() {
           <button className="rounded-md bg-black px-8 py-4 text-xl text-rose-100 hover:bg-gray-900">
             Play now
           </button>
-        </div>
-
-        {/* Image */}
-        <div className="md:w-1/1">
-          <img
-            src={home}
-            alt=""
-            className="w-full max-w-full rounded-lg mask-b-from-50% mask-b-to-120% object-cover"
-          />
         </div>
       </section>
     </div>
