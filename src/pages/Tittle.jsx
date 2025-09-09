@@ -11,10 +11,10 @@ export default function Tittle() {
       </div>
 
       {/* Content */}
-      <section className="flex min-h-[calc(100vh-66px)] flex-col place-content-center items-center gap-10 bg-radial-[at_25%_10%] from-fuchsia-900 from-10% to-slate-900 to-60% px-6 pt-8 md:flex-row md:pt-0 md:pl-16">
+      <section className="flex min-h-[calc(100vh-66px)] flex-row place-content-center items-center gap-10 bg-radial-[at_25%_10%] from-fuchsia-900 from-10% to-slate-900 to-60% pl-6">
         {/* Text */}
-        <div className="space-y-6 text-center md:w-1/2 md:text-left">
-          <h2 className="text-9xl font-bold text-rose-100">This is TRPG</h2>
+        <div className="w-3xl space-y-6 text-left">
+          <h2 className="text-6xl font-bold text-rose-100">This is TRPG</h2>
           <p className="text-2xl text-rose-300">
             Take control of your{" "}
             <strong className="font-bold">D&D campaign</strong> by keeping
@@ -26,11 +26,11 @@ export default function Tittle() {
         </div>
 
         {/* Image */}
-        <div className="md:w-1/1">
+        <div className="flex w-1/5 flex-1">
           <img
             src={home}
             alt=""
-            className="w-full max-w-full rounded-lg mask-b-from-50% mask-b-to-120% object-cover"
+            className="h-[calc(100vh-66px)] w-full rounded-lg mask-l-from-85% object-cover object-top-left"
           />
         </div>
       </section>

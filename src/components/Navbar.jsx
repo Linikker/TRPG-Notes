@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@tanstack/react-router";
+
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
@@ -43,20 +44,23 @@ export default function Navbar() {
           ☰
         </button>
 
-        {/* menu desktop */}
+        {/* menu (desktop) */}
         <ul className="hidden items-center gap-6 text-base font-medium md:flex">
           <li>
-            <a href="#">Encounters</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#">Characters</a>
+            <a href="/encounters">Encounters</a>
           </li>
           <li>
-            <a href="#">Monsters</a>
+            <Link to="/characters">Characters</Link>
+          </li>
+          <li>
+            <a href="/monsters">Monsters</a>
           </li>
           <li>
             <button className="rounded-lg bg-white px-4 py-1 font-semibold text-fuchsia-900 hover:bg-purple-100">
-              Play now
+              <a href="/login">Play now</a>
             </button>
           </li>
         </ul>
@@ -69,17 +73,17 @@ export default function Navbar() {
           className="flex w-full flex-col bg-[#4D348F] px-6 py-4 text-base font-medium text-white md:hidden"
         >
           <li className="py-2">
-            <a href="#">Encounters</a>
+            <a href="/encounters">Encounters</a>
           </li>
           <li className="py-2">
-            <a href="#">Characters</a>
+            <Link to="/characters">Characters</Link>
           </li>
           <li className="py-2">
-            <a href="#">Monsters</a>
+            <a href="/monsters">Monsters</a>
           </li>
           <li className="py-2">
             <button className="rounded-lg bg-white px-4 py-1 font-semibold text-fuchsia-900 hover:bg-purple-100">
-              Sign in
+              <Link to="/characters">Play now</Link>
             </button>
           </li>
         </ul>
